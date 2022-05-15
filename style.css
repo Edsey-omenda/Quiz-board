@@ -1,0 +1,40 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+    font-family: 'Nunito', sans-serif; ;
+}
+body{
+    margin: 20px;
+    padding:0;
+    background-color:green;
+    width: 50%;
+}
+.Js-course{
+    background-color: green;
+    text-align:left;
+}
+#after_start{
+    visibility:hidden;
+}
+#question{
+    text-align: left;
+    justify-content: center;
+}
+#button{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 0.8rem;
+}
+#s-btn{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 0.8rem;
+}
+#scoreCard{
+    visibility: visible;
+}
+
+
