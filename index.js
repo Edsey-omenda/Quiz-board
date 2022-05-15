@@ -2,13 +2,13 @@ alert("Welcome  to Java script  quizes");
 function  confirm()  {
     document.getElementById("after_start").style.visibility="visible";
 }
+const buttonsubmit = document.getElementById("s-btn");
 
 function search() {
     var testOne = document.getElementById("1");
     var testTwo = document.getElementById("2");
     var testThree = document.getElementById("3");
     var testFour = document.getElementById("4");
-    var button = document.querySelector("s-btn");
     var score = 0;
 
 
@@ -24,9 +24,5 @@ function search() {
     }
     if (testFour == "Joining two  or  more  things  together"){
         score +=1;
-    }
-   
+    } 
 }
-
-document.getElementById("after_s-btn").style.visibility = "visible"; 
-button.addEventListener('click', search());
