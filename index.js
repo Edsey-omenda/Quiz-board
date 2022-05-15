@@ -24,7 +24,7 @@ function search() {
     if (testFour == "Joining two  or  more  things  together"){
         score +=1;
     } 
-    var messages = ["Distinction", "Credit", "Pass", "Fail"];
+    var grade_messages = ["Distinction", "Credit", "Pass", "Fail"];
 
     var scale;
 
@@ -39,5 +39,6 @@ function search() {
     if (score > 2) {
         scale = 0;
     }
+    document.getElementById("grade_message").innerHTML = grade_messages(scale);
 }
 
