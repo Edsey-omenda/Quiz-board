@@ -25,5 +25,19 @@ function search() {
         score +=1;
     } 
     var messages = ["Distinction", "Credit", "Pass", "Fail"];
+
+    var scale;
+
+    if(score < 1) {
+        scale = 2;
+    }
+
+    if (score > 0 && score < 4) {
+        scale = 1;
+    }
+
+    if (score > 2) {
+        scale = 0;
+    }
 }
 
