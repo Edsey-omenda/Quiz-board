@@ -2,7 +2,7 @@ alert("Welcome  to Java script  quizes");
 function  confirm()  {
     document.getElementById("after_start").style.visibility="visible";
 }
-    
+
 function search() {
     var testOne = document.getElementById("1");
     var testTwo = document.getElementById("2");
@@ -24,4 +24,6 @@ function search() {
     if (testFour == "Joining two  or  more  things  together"){
         score +=1;
     } 
+    var messages = ["Distinction", "Credit", "Pass", "Fail"];
 }
+
