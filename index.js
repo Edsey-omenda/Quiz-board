@@ -1,4 +1,4 @@
-
+alert("Welcome  to Java script  quizes");
 function  confirm()  {
     document.getElementById("after_start").style.visibility="visible";
 }
