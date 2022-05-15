@@ -40,5 +40,6 @@ function search() {
         scale = 0;
     }
     document.getElementById("grade_message").innerHTML = grade_messages(scale);
+    document.getElementById("scoreCard").innerHTML = "Your  score is" + "score";
 }
 
