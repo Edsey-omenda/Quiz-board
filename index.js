@@ -39,7 +39,7 @@ function search() {
     if (score > 2) {
         scale = 0;
     }
-    document.getElementById("grade_message").innerHTML = grade_messages(scale);
-    document.getElementById("scoreCard").innerHTML = "Your  score is" + "score";
+    document.getElementById("grade_message").innerHTML = grade_messages[scale];
+    document.getElementById("scoreCard").innerHTML = "Your  score is" + (score +=1);
 }
 
