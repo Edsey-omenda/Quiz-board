@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz  board for Java script</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+     <div class="Js-course">
+        <h1>Congratulations on finishing Js course work!</h1>
+        <h2>Enter your admission number to start  the   Js quiz</h2> <br>
+     </div>
+        <form id="textbox" type="text" name="admission number">
+         <input>
+        <br> <br>
+        <input id="button" type="button" value="start" onclick="confirm();">
+        </form>
+        <div id="after_start">
+    <div id="tests">
+        <h3 id="testOne">Q1:Which one best  describes javascript?</h3>
+        <div id="1" onclick=""><input type="radio" id="1" name="test1" value="Scripting language">Scripting language</div>
+        <div id="1" onclick=""><input type="radio" id="1" name="test1" value="Programming language">Programming language</div>
+        <div id="1" onclick=""><input type="radio" id="1" name="test1" value="Markup langage">Markup language</div>
+        <div id="1" onclick=""><input type="radio" id="1" name="test1" value="Designing language">Designing language</div>
+    <br> 
+    <h3 class="testTwo">Q2:What  is  a console used for in java script?</h3>
+        <div id="2" onclick=""><input type="radio" id="2" name="test2" value="Save java script files">Save java script files</div>
+        <div id="2" onclick=""><input type="radio" id="2" name="test2" value="Record output of java programs">Record output  of  java programs</div>
+        <div id="2" onclick=""><input type="radio"id="2" name="test2" value="Call a function in java script">Call a funtion in java script</div>
+        <div id="2" onclick=""><input type="radio"id="2" name="test2" value="Define variables in java script">Define variables in java script</div>
+    <br>
+    <h3 class="testThree">Q3:What does Math.ceil do in java script?</h3>
+        <div id="3" onclick=""><input type="radio"id="3" name="test3" value="Return power of a number">Return power of  a number</div>
+        <div id="3" onclick=""><input type="radio"id="3" name="test3" value="Delete a number">Delete a  number</div>
+        <div id="3" onclick=""><input type="radio"id="3" name="test3" value="Roundup a value  to  the  nearest interger">Round up  a  value  to  the  nearest interger</div>
+        <div id="3" onclick=""><input type="radio"id="3" name="test3" value="Round down a value to  the  nearest interger">Round down a value  to  the  nearest interger</div>
+    <br>
+        <h3 class="testFour">Q4:Define concantenation  used in java script</h3>
+        <input type="radio"id="4" name="test4" value="A place holder for objects">A place holder  for  objects<br>
+        <input type="radio"id="4" name="test4" value="Adds items  to  packing  list">Adds  items  to  packing  list<br>
+        <input type="radio"id="4" name="test4" value="Used to import vanilla frameworks">Used  to  import vanilla  frameworks<br>
+        <input type="radio"id="4" name="test4" value="Joining two or  more things  together">Joining two  or  more  things  together<br>
+
+        <br>
+    </div>
+    <form>
+    <input id="s-btn" type="button" value="Submit test"onclick="search();">
+    </form>
+        </div>
+        <br>
+        <div id="after_s-btn">
+    <h4 id="scoreCard">score Card:</h4>
+        </div>
+    <script src="./index.js">
+  </script>
+</body>
+</html>
